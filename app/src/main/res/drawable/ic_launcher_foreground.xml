@@ -1,0 +1,127 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Outer Frame (Rounded Square) -->
+    <path
+        android:pathData="M 32,24 L 76,24 A 8,8 0 0 1 84,32 L 84,76 A 8,8 0 0 1 76,84 L 32,84 A 8,8 0 0 1 24,76 L 24,32 A 8,8 0 0 1 32,24 Z"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="0.5" android:color="#8A2BE2" />
+                <item android:offset="1.0" android:color="#FF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Frame Subtle Inner Glow -->
+    <path
+        android:pathData="M 33,26 L 75,26 A 7,7 0 0 1 82,33 L 82,75 A 7,7 0 0 1 75,82 L 33,82 A 7,7 0 0 1 26,75 L 26,33 A 7,7 0 0 1 33,26 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#4000F2FE"
+        android:fillColor="#15000000" />
+
+    <!-- stylized glowing cybernetic Letter "P" -->
+    <!-- It consists of vertical bar on left and curved lobe on top right -->
+    <path
+        android:pathData="M 40,73 L 40,35 C 40,35 48,32 58,35 C 68,38 68,54 58,57 L 40,57"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="40"
+                android:startY="32"
+                android:endX="68"
+                android:endY="60"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="0.6" android:color="#7F00FF" />
+                <item android:offset="1.0" android:color="#FF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Parallel Line for Cyber "P" (Concentric lines style) -->
+    <path
+        android:pathData="M 45,71 L 45,41 C 45,41 50,38 56,41 C 62,44 62,50 56,53 C 54,53 45,53 45,53"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="45"
+                android:startY="38"
+                android:endX="62"
+                android:endY="53"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00FFFF" />
+                <item android:offset="1.0" android:color="#E0115F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Core Network Node in center loop of "P" (glowing circle + nodes) -->
+    <path
+        android:pathData="M 54,46 A 4,4 0 1,1 53.99,46 Z"
+        android:fillColor="#00F2FE" />
+
+    <path
+        android:pathData="M 54,46 L 50,42 M 54,46 L 58,42 M 54,46 L 50,50 M 54,46 L 58,50 M 54,46 L 54,40 M 54,46 L 54,52"
+        android:strokeColor="#8000F2FE"
+        android:strokeWidth="0.8" />
+
+    <path
+        android:pathData="M 50,42 A 1,1 0 1,1 49.99,42 Z
+                     M 58,42 A 1,1 0 1,1 57.99,42 Z
+                     M 50,50 A 1,1 0 1,1 49.99,50 Z
+                     M 58,50 A 1,1 0 1,1 57.99,50 Z
+                     M 54,40 A 1,1 0 1,1 53.99,40 Z
+                     M 54,52 A 1,1 0 1,1 53.99,52 Z"
+        android:fillColor="#E0115F" />
+
+    <!-- Glowing Cyber Stylus / Pencil at the bottom-right corner -->
+    <!-- Point of pen starts at (55, 75) pointing down-right to eraser at (74, 56) -->
+    <!-- Let's draw the pen body -->
+    <path
+        android:pathData="M 55,75 Q 65,65 74,56"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="55"
+                android:startY="75"
+                android:endX="74"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="1.0" android:color="#FF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Point Tip -->
+    <path
+        android:pathData="M 55,75 L 53,77 L 57,75 Z"
+        android:fillColor="#00FFFF" />
+
+    <!-- Decorative Horizon/Writing base glow line under stylus -->
+    <path
+        android:pathData="M 52,78 L 74,78"
+        android:strokeColor="#6000F2FE"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round" />
+</vector>

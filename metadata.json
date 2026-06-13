@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Optimizer",
+  "description": "یک نرم‌افزار حرفه‌ای و هوشمند برای بهینه‌سازی پرامپت با پشتیبانی از هوش مصنوعی، تاریخچه محلی، حالت آفلاین و گزارش‌های امنیتی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
